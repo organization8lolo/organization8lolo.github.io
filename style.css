@@ -2,26 +2,40 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p, a, li {
+    font-size: 20px;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f4f6;
-    color: #333;
+    color: white;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #4a90e2;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: white;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     padding: 0;
 }
@@ -38,16 +52,12 @@ nav ul li a {
 }
 
 section {
-    background-color: white;
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #4a90e2;
-}
 
 form {
     display: flex;
@@ -64,50 +74,22 @@ textarea {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin: 15px 100px;
 }
 
 button {
+    margin: 30px 700px;
     padding: 10px 15px;
-    background-color: #4a90e2;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #357ab7;
-}
-
-.advantages ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-.leader {
-    margin: 10px 0;
-    padding: 15px;
-    background-color: #e7f3fe;
-    border-left: 5px solid #4a90e2;
-}
-
-footer {
-    background-color: #4a90e2;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer h2 {
-    margin-top: 0;
+    margin
 }
 
 footer a {
-    color: #ffd700;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
